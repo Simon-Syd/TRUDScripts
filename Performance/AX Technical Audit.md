@@ -587,7 +587,7 @@ where program_name like N'%Dynamics%'
 and cast(context_info as varchar(128)) like N'%user1%'
 ```
 
-## Show current trance flags
+## Show current trace flags
 
 ```sql
 DBCC TRACESTATUS(-1)
